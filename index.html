@@ -12,7 +12,7 @@
     <script src="interfaz.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="btn btn-default  btn-lg" id="home">
@@ -21,7 +21,10 @@
         </div>
         <div class= "nav navbar-nav navbar-right" id="nav-right">
           <div id="date">
-            <p></p>
+            <button type="button" class="btn btn-default  btn-lg" id="home">
+              <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+            </button>
+
           </div>
         </div>
       </div>
@@ -44,9 +47,43 @@
         <li>Learn more about this menu</li>
       </ul>
   </div>
-  <div >
+  <div id="cuadro2" >
     <div id="datepicker"></div>
   </div>
+
+<div class="ui-widget ui-helper-clearfix">
+
+<ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+  <li class="ui-widget-content ui-corner-tr">
+    <h5 class="ui-widget-header ">Aplications</h5>
+    <img src="folder.png" alt="The peaks of High Tatras" width="96" height="72">
+    <a href="folder.png" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+  </li>
+  <li class="ui-widget-content ui-corner-tr">
+    <h5 class="ui-widget-header">Photos</h5>
+    <img src="folder.png" alt="The chalet at the Green mountain lake" width="96" height="72">
+    <a href="folder.png" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+  </li>
+  <li class="ui-widget-content ui-corner-tr">
+    <h5 class="ui-widget-header">Github</h5>
+    <img src="folder.png" alt="Planning the ascent" width="96" height="72">
+    <a href="folder.png" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+  </li>
+  <li class="ui-widget-content ui-corner-tr">
+    <h5 class="ui-widget-header">Documents</h5>
+    <img src="folder.png" alt="On top of Kozi kopka" width="96" height="72">
+    <a href="folder.png" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+  </li>
+</ul>
+
+<div id="trash" class="ui-widget-content ui-state-default">
+  <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+</div>
+
 
   </body>
 </html>

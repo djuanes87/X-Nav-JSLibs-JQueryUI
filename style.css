@@ -1,17 +1,42 @@
+body{
+  background-image: url("maxresdefau.jpg");
+  background-repeat: no-repeat;
+  background-position:75% 10%;
+}
+
 #cuadro{
-  padding-left: 10px;
-  padding-bottom: 100px;
+  position: fixed;
+  left: 5px;
+  top:60px;
+}
+#cuadro2{
+  position: fixed;
+  right: 0;
+  top:60px;
+
 }
 
 #nav-right{
   padding-right: 40px;
-  padding-top: 10px;
 }
 
 #date{
   font-size: 20px;
+  color: white;
 }
 
 #menu{
   width: 150px;
 }
+#gallery { float: left; width: 65%; min-height: 12em; }
+.gallery.custom-state-active { background: none; }
+.gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; background: none; border: none}
+.gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+.gallery li a { float: right; }
+.gallery li a.ui-icon-zoomin { float: left; }
+.gallery li img { width: 100%; cursor: move; }
+
+#trash { float: right; width: 32%; min-height: 18em; padding: 1%; }
+#trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+#trash h4 .ui-icon { float: left; }
+#trash .gallery h5 { display: none; }
